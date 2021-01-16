@@ -25,6 +25,7 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'dev_azure_10020_InfosecDev(719929c1-66f0-408f-a6e2-8302167cc276)'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     WebAppName: 'isodevopsjava'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.war'
+    

@@ -28,4 +28,5 @@ steps:
     appType: 'webAppLinux'
     WebAppName: 'isodevopsjava'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.war'
+    StartupCommand: java -Dserver.port=80 -jar helloworld.war
     

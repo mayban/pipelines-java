@@ -37,6 +37,6 @@ steps:
     azureSubscription: 'dev_azure_10020_InfosecDev(719929c1-66f0-408f-a6e2-8302167cc276)'
     appType: 'webAppLinux'
     WebAppName: 'isodevopsjava'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.war'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.war'
 #    StartupCommand: 'java -jar /home/site/wwwroot/webapps/helloworld.jar --server.port=80'
     

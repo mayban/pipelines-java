@@ -38,5 +38,6 @@ steps:
     appType: 'webAppLinux'
     WebAppName: 'isodevopsjava'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.war'
+    RuntimeStack: 'TOMCAT|9.0-java11'
 #    StartupCommand: 'java -jar /home/site/wwwroot/webapps/helloworld.jar --server.port=80'
     
